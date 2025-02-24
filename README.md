@@ -17,6 +17,8 @@ This project implements a **text cleaning pipeline** using **four Python filters
 ```bash
 pip install textblob
 
+type input.txt | python sentence_splitter.py | python remove_stopwords.py | python spell_checker.py | python capitalize_sentences.py
+
 input.txt：
 
 this is an exampel text. teh project is abut txt cleanning! do you recieve the data?
